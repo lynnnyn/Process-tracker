@@ -1,9 +1,10 @@
 ## Nodejs Process Tracker for Python Tasks
 
-###Set up Datebase(Redis)
+### Set up Datebase(Redis)
 docker-compose up
 
-###Build
+### Build
+
     npm install
     cd Worker
     node worker.js
@@ -20,7 +21,7 @@ Start again:
 
     node worker.js
 
-###Tech Stack
+### Tech Stack
    * Node.js
    * socket.io
    * express
